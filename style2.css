@@ -40,15 +40,21 @@ li.logo span.custom-font {
     width: 15rem;
 }
 
-.sidenav div.first-part-nav li>a.navig {
+.sidenav li>a.navig {
     font-weight: 600;
     font-size: 20px;
     height: 2.05em;
     font-family: 'Libre Baskerville' serif;
 }
 
-.sidenav div.second-part-nav li.row-text-title {
+.sidenav li>a:hover {
+    background-color: transparent;
+    color: hsl(150, 1.2%, 58%);
+}
+
+.sidenav li.row-text-title {
     text-transform: uppercase;
     font-weight: 300;
     font-family: Inter sans-serif;
 }
+
