@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tagalog Doctrina 1593';
+    src: url('TagDoc93.ttf') format('truetype');
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0rem;
+    background-color: #ffffff;
+}
+
+.custom-font {
+    font-family: 'Tagalog Doctrina 1593';
+    font-size: 2rem;
+    color: #000;
+}
+
+ul.sidenav.sidenav-fixed li.logo {
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 16.5px;
+}
+
+li.logo span.custom-font {
+    background-color: #f0f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.sidenav {
+    width: 15rem;
+}
+
+.sidenav div.first-part-nav li>a.navig {
+    font-weight: 600;
+    font-size: 20px;
+    height: 2.05em;
+    font-family: 'Libre Baskerville' serif;
+}
+
+.sidenav div.second-part-nav li.row-text-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Inter sans-serif;
+}
